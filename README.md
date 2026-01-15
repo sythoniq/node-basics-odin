@@ -2,3 +2,10 @@
 
 > Small Project to expand on some of the lessons introduced in the early node
 > path.
+
+> Basics on Node.js
+
+>> - Got to use `createServer` and got to see how requests are passed to said server and how to work with them.
+    To be specific this one allowed me to able to write a small snippet that will open a specific page depending on the url passed to the `req` parameter.
+    Other than that, there is alot of content that has been read and probably all forgotten by now, but now I have a slight idea of what node is and how it kinda
+    works and such.
