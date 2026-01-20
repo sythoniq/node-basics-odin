@@ -9,3 +9,8 @@
     To be specific this one allowed me to able to write a small snippet that will open a specific page depending on the url passed to the `req` parameter.
     Other than that, there is alot of content that has been read and probably all forgotten by now, but now I have a slight idea of what node is and how it kinda
     works and such.
+
+
+> Commented out the entire basic node part, reimplemented most of the features using express. Mainly utilizing the `express().get()` function to process the requests through multiple different middleware functions and then finally I use `sendFile()` function to pass the appropriate file for that said route/url.
+
+>> - I need to figure out how to handle the specific error whereby the page that an access attempt is made to is unknown so that it displays the `404 page`.
