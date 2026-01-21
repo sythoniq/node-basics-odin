@@ -43,6 +43,9 @@ app.get('/about', (req, res) => res.sendFile(process.env.ROOT + '/src/about.html
 app.get('/contact', (req, res) => res.sendFile(process.env.ROOT + '/src/contact-me.html'));
 
 // Need to figure out how to handle unknow routes/urls
+app.use((req, res) => {
+  res.status(404).sendFile(process.env.ROOT + '/src/404.html');
+})
 
 const PORT = 3000;
 
